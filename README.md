@@ -1,4 +1,4 @@
-# Project Tittle : JMeter Performance Testing Project
+# Project Tittle : Automated Performance Testing of Financial Transactions Using Apache JMeter
 
 ## Project Overview
 This project involves creating a JMX file for Apache JMeter to automate a series of positive test cases based on the following scenario:
