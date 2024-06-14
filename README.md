@@ -22,8 +22,8 @@ The objective is to simulate these actions and measure the performance of the sy
 3. **Extract JMeter**: Extract the downloaded JMeter archive to a desired location on your computer.
 ## Resources
 
-- **User API Documentation**: You will get the user API URL, endpoint, header info, and demo data from [here](https://documenter.getpostman.com/view/1844288/2s9YeABaGo).
-- **Transaction API Documentation**: You will get the transaction API URL, endpoint, header info, and demo data from [here](https://documenter.getpostman.com/view/1844288/2s9YeABaGp).
+- **User API Documentation**: You will get the user API URL, endpoint, header info, and demo data from [(https://documenter.getpostman.com/view/1844288/2s9YeABaGo)]
+- **Transaction API Documentation**: You will get the transaction API URL, endpoint, header info, and demo data from [(https://documenter.getpostman.com/view/1844288/2s9YeABaGp)]
 
 ## Creating the JMX File
 Follow the steps below to create the JMX file for the given scenario:
