@@ -20,6 +20,10 @@ The objective is to simulate these actions and measure the performance of the sy
 1. **Install Java**: Ensure that you have JDK 8 or above installed on your system. You can download it from the [official Oracle website](https://www.oracle.com/java/technologies/javase-downloads.html).
 2. **Download JMeter**: Download the latest version of Apache JMeter from the [official JMeter website](https://jmeter.apache.org/download_jmeter.cgi).
 3. **Extract JMeter**: Extract the downloaded JMeter archive to a desired location on your computer.
+## Resources
+
+- **User API Documentation**: You will get the user API URL, endpoint, header info, and demo data from [here](https://documenter.getpostman.com/view/1844288/2s9YeABaGo).
+- **Transaction API Documentation**: You will get the transaction API URL, endpoint, header info, and demo data from [here](https://documenter.getpostman.com/view/1844288/2s9YeABaGp).
 
 ## Creating the JMX File
 Follow the steps below to create the JMX file for the given scenario:
@@ -72,6 +76,13 @@ Follow the steps below to create the JMX file for the given scenario:
 2. Load the `Dmoney.jmx` file.
 3. Run the test by clicking on the green start button.
 4. Monitor the test results in the listeners.
+
+## Using JMeter CLI :
+### Execute the following command to run the test plan in non-GUI mode:
+- ```
+  To Run Test Plan: Execute: jmeter -n -t yourFile.jmx -l yourFile.csv.```
+- ```
+  To Generate Report: Execute:jmeter -n -t yourFile.jmx -l yourFile.csv -e -o Reports.```
 
 ## Jmeter HTML Report:
 ![Screenshot (346)](https://github.com/ShuhanaRiya09/demo-transaction-api-jmeter/assets/108625095/6e471f8e-2493-4c77-acca-4a31446bcfd0)
