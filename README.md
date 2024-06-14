@@ -83,7 +83,6 @@ Follow the steps below to create the JMX file for the given scenario:
   To Run Test Plan: Execute: jmeter -n -t yourFile.jmx -l yourFile.csv.```
 - ```
   To Generate Report: Execute:jmeter -n -t yourFile.jmx -l yourFile.csv -e -o Reports.```
-
 ## Jmeter HTML Report:
 ![Screenshot (346)](https://github.com/ShuhanaRiya09/demo-transaction-api-jmeter/assets/108625095/6e471f8e-2493-4c77-acca-4a31446bcfd0)
 
